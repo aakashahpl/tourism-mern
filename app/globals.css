@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body {
+body_y   {
   background-image: url('../public/taj.jpg'); /* Replace with your image path */
   background-size: cover; /* Adjust background image size */
   background-repeat: no-repeat; /* Prevent image repetition */
@@ -20,6 +20,14 @@ body {
 
 .test-bdr {
   border: 1px solid black;
+}
+
+@font-face {
+  font-family: 'MyFont'; /* Your chosen font-family name */
+  src: url('../public/fonts/SAMAN___.TTF') format('ttf');
+  /* Add other font formats if necessary */
+  font-weight: normal;
+  font-style: normal;
 }
 
 

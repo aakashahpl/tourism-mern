@@ -2,6 +2,7 @@
 import React from "react";
 import "../globals.css";
 import Image from "next/image";
+import localFont from "@next/font/local";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,12 @@ const Navbar = () => {
             width={60} // Set the width
             height={60} // Set the height
           />
-          <h1 className="text-white text-3xl px-2 py-2">India</h1>
+          <h1
+            className="text-white text-3xl px-2 py-2 "
+            style={{ fontFamily: "MyFont" }}
+          >
+            India
+          </h1>
         </div>
 
         <div>

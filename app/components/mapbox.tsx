@@ -20,16 +20,8 @@ const MapboxMap = () => {
   }, []);
 
   return (
-    <div>
-      <div className="flex">
-        <div className="border-2 border-red-600 w-1/2 h-screen"></div>
-        <div className="border-2 border-red-600 w-1/2 h-screen bg-gradient-to-r from-transparent to-black">
-          <div
-            id="map-container"
-            style={{ width: "100%", height: "100%" }}
-          ></div>
-        </div>
-      </div>
+    <div className="border-2 border-red-600 w-1/2 h-screen bg-gradient-to-r from-transparent to-black">
+      <div id="map-container" style={{ width: "100%", height: "100%" }}></div>
     </div>
   );
 };
