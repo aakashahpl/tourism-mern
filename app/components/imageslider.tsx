@@ -32,10 +32,13 @@ const ImageSlider = ({ slides }: any) => {
           className="w-screen h-screen  -z-10"
           src={slides[currentIndex].url}
           fill={true}
+
+          style={{objectFit:"cover"}}
+
           alt="Profile Picture"
         />
       </div>
-      <div className=" absolute bottom-20 left-[73vh] select-none ">
+      <div className=" absolute bottom-20 left-[95vh] select-none ">
         <div className=" flex p-3 w-[40vh] justify-between">
           <div className="hover:scale-110 ease-in-out" onClick={goToPrevious}>
             <BsFillArrowLeftCircleFill size={40} />

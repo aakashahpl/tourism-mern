@@ -10,13 +10,13 @@ const Navbar = () => {
       <div className="w-[90%] h-[5rem] border-2 border-red-900 flex justify-between ">
         <div id="Logo" className="test-bdr py-2 flex px-2">
           <Image
-            src={"/logo.png"}
+            src={"/logo3.png"}
             alt="My Image"
-            width={60} // Set the width
-            height={60} // Set the height
+            width={80} // Set the width
+            height={90} // Set the height
           />
           <h1
-            className="text-white text-3xl px-2 py-2 "
+            className="text-grey text-[50px]  px-2 py-2 "
             style={{ fontFamily: "MyFont" }}
           >
             India

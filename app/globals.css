@@ -24,7 +24,7 @@ body_y   {
 
 @font-face {
   font-family: 'MyFont'; /* Your chosen font-family name */
-  src: url('../public/fonts/SAMAN___.TTF') format('ttf');
+  src: url('../public/fonts/font3.ttf') format('truetype');
   /* Add other font formats if necessary */
   font-weight: normal;
   font-style: normal;

@@ -6,11 +6,11 @@ import MapboxMap from "./mapbox";
 
 const Homeo = () => {
   const slides = [
-    { url: "/taj.jpg", title: "beach" },
-    { url: "/pink.jpg", title: "boat" },
-    { url: "/women.jpg", title: "boat" },
-    { url: "/Taj.jpg", title: "boat" },
-    { url: "/camle.jpg", title: "boat" },
+    { url: "/taj10.jpg", title: "beach" },
+    { url: "/rajasthan10.jpg", title: "boat" },
+    { url: "/kashmir10.jpg", title: "boat" },
+    { url: "/tiger11.jpg", title: "boat" },
+    { url: "/victoria.jpg", title: "boat" },
   ];
   return (
     <div className="">
@@ -18,7 +18,7 @@ const Homeo = () => {
       <div className="flex">
         <div className="w-1/2 h-screen"></div>
         <MapboxMap />
-      </div>
+      </div>  
     </div>
   );
 };
